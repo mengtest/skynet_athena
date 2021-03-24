@@ -1,0 +1,217 @@
+
+增加经验:
+	/addexp expnum
+
+增加RPG体力:
+	/addrpgphysical physical
+	例：
+		/addrpgphysical 200
+
+增加SLG行动力:
+	/addslgaction actionvalue
+	例：
+		/addslgaction 1000
+
+添加物品:
+	/addthing thingcfgid num
+	例：
+		/addthing 10013 3
+
+添加资源:
+	/addcurrency currencyType num
+	currencyType = {
+		magic_crystal = 1000,		 	-- 魔晶
+		food = 1001,					-- 粮食
+		wood = 1002,					-- 木材
+		iron_ore = 1003,				-- 铁矿
+		mithril = 1004,				-- 秘银
+		gold = 1005,					-- 金币
+		-- 安全资源
+		s_food = 1006,					-- 粮食
+		s_wood = 1007,					-- 木材
+		s_iron_ore = 1008,				-- 铁矿
+		s_mithril = 1009,				-- 秘银
+		s_gold = 1010,					-- 金币
+		-- 加速
+		sp_normal = 1011,				-- 通用加速
+		sp_technology = 1012,			-- 研发
+		sp_train = 1013,				-- 训练
+		sp_cure = 1014,					-- 治疗
+		sp_wall_modify = 1015,			-- 城墙修复
+	}
+	例：
+		增加100食物
+		/addcurrency 1001 100
+
+增加士兵：
+	/addsoldier soldiercfgid num
+	例：
+		/addsoldier 401 100
+
+减少士兵
+	/subsoldier soldiercfgid num
+	例：
+		/subsoldier 401 100
+
+增加伤兵
+	/addwoundedsoldier soldiercfgid num
+	例：
+		/addsoldier 401 100
+
+增加傀儡：
+	/addpuppet soldiercfgid num
+	例：
+		/addpuppet 701 100
+
+增加损坏的傀儡：
+	/addbadpuppet soldiercfgid num
+	例：
+		/addbadpuppet 701 100
+
+完成事务:
+	/completequeue businessid
+	例：
+		/completequeue 1
+
+增加英雄
+	/addHero herosort
+		/addHero 1
+
+英雄获得经验
+	/addHeroExp herosort exp
+		/addHeroExp 1 10
+	
+英雄状态改变
+	/changeHeroState herosort state
+		/changeHeroState 1 2
+	
+英雄升阶
+	/addherograde herosort addvalue
+		/addherograde 1 2
+
+更新当前关卡信息
+	/updatepointsinfo dungeonsid
+		/updatepointsinfo 1
+
+设置燃烧状态
+	/setcitywallstatus curendurevalue
+		/setcitywallstatus 100
+
+增加文明声望
+	/addCivilizationExp addtype addvalue
+	addtype = {
+		useitem = 1,        -- 捐献(使用道具)
+		pvpbattle = 2,      -- 击杀部队
+		pvebattle = 3,      -- SLG小怪
+		allianceboss = 4,   -- 联盟boss
+		barbariancamp = 5,  -- 野蛮人营地
+	}
+		/addCivilizationExp 2 100
+
+清除文明切换冷却
+	/clearCivSwitchCD
+
+设置当前文明等级
+	/setCivilizationLevel newlevel
+
+添加宝物
+	/addTreasure cfgid
+
+精灵解锁加速
+	/elfUnlockSpeedUp
+
+vip激活过期
+	/vipExpire lefttime
+
+清主动技能cd
+	/clearlordskillcd
+
+联盟等级变更
+    /setAllianceLevel level
+
+联盟科技加速
+    /allianceTechSpeedUp
+
+增加军功
+    /addMerit value
+
+增加军衔经验
+    /addMilitaryRankExp value
+
+设置军衔
+    /setMilitaryRank rank
+
+设置上期军衔
+    /setMilitaryLastRank lastrank
+
+设置王国头衔
+    /setCountryTitle title
+
+清空王国已发放礼包
+    /clearCountryGift
+
+王国buffcd清零
+    /clearCountryBuffCD
+
+设置竞技场奖励时间
+	/setArenaTime	
+
+设置杀敌数
+	/setkillnum killnum
+
+增加服务器时间
+	/addservertime seconds
+
+增加buff
+	/addbuff buffcfgid seconds
+
+发放联盟礼物 礼物配置id
+    /addAllianceGift giftCfgID num
+
+完成当前总动员任务
+    /completeMobilizeTask
+
+解锁地块
+	/openarea areaid
+
+结束当前活动状态
+    /activityStatusEnd activityID
+
+增加祭坛时间
+	/addAltarTime seconds
+
+增加积分-个人活动
+    /addIntegralThree point
+
+增加积分-限时活动
+    /addIntegralOne point
+
+增加积分-全日活动
+    /addIntegralDay point
+
+增加积分-最强领主
+    /addStrongest point
+
+购买月卡或者周卡
+    /buyFreeca freecaid
+
+解锁行军表情
+    /unlockFace facekeyid
+
+开启国王战
+	/startkingwar
+
+充值基础表刷新
+    /reloadRechargeBase
+
+新王崛起任务
+    /risekingQuest index
+
+激活装扮
+    /unlockDress index
+
+清空背包
+	/clearbag
+
+清空邮件
+    /clearmail

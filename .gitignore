@@ -1,0 +1,16 @@
+*.o
+*.a
+/luaclib/*.so
+/luaclib/*.dSYM
+/log
+/config
+*.so
+*.dSYM
+.DS_Store
+skynet.pid
+*.out
+.idea
+*.meta
+*.spb
+*.rdb
+

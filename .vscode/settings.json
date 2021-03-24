@@ -1,0 +1,10 @@
+{
+    "Lua.diagnostics.disable": [
+        "undefined-global",
+        "emmy-lua"
+    ],
+    "Lua.diagnostics.globals": [
+        "exit",
+        "init"
+    ]
+}

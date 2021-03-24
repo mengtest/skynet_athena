@@ -1,0 +1,243 @@
+#登录协议			1-20
+loginproto		
+
+#角色基础信息		21-50
+playerbaseproto		
+
+#领主技能			51-70
+lordskillproto		
+
+#货币模块 		201-250
+currencyproto	
+
+#邮件模块       251-400
+mailproto
+
+#时间事务队列		401-450
+businessqueueproto	
+
+#城市建筑消息  451-500
+cityproto  
+
+#背包消息 501-550
+bagproto
+
+#聊天消息 551-600
+chatproto
+
+#领主属性模块 601-610
+attributeproto
+
+#士兵模块 611-650
+soldierproto
+
+#地图模块			651-1000
+mapproto		
+
+#英雄模块           1001-1100
+heroproto
+
+#buff模块          1101-1150
+buffproto
+
+#联盟模块 1151-1500
+allianceproto
+
+#校场模块 1501-1550
+drillgroundproto
+
+#商城模块 1551-1600
+shopproto
+
+#副本关卡模块 1601-1650
+dungeonsproto
+
+#系统设置 1651-1660
+playersettingproto
+
+
+#玩家详情信息 1661-1670
+playerdetailinfoproto
+
+#城墙模块 1671-1690
+citywallproto
+
+#vip模块 1691-1700
+vipproto
+
+#战斗协议 1701-1800
+battleproto
+
+#学院科技 1801-1810
+technologyproto
+
+#藏兵洞 1811-1820
+hidesoldierproto
+
+#宝物模块 1821-1870
+treasureproto
+
+#文明系统 1871-1900
+civilizationproto
+
+#收藏夹 1901-1910
+collectproto
+
+#阵型 1911-1920
+formationproto
+
+#精灵 1921-1950
+elfproto
+
+#许愿池 1951-1970
+wishpondproto
+
+#联系人 1971-2000
+relationproto
+
+#神秘商店 2001-2020
+mysteryshopproto
+
+#材料工坊 2021-2040
+materialworkshopproto
+
+#排行榜 2041-2060
+rankproto
+
+#军衔 2061-2080
+militaryrankproto
+
+#竞技场 2081-2110
+arenaproto
+
+#登陆签到 2111-2120
+sevendaysloginproto
+
+#军情 2121-2150
+militaryinfoproto
+
+#随机宝箱签到 2151-2170
+randomchestproto
+
+#成长任务 2171-2230
+developquestproto
+
+#功能开放 2231-2250
+functionopensproto
+
+#王国系统 2251-2400
+countryproto
+
+#内政任务 2401-2420
+interquestproto
+
+#联盟任务 2421-2440
+unionquestproto
+
+#vip任务 2441-2450
+vipquestproto
+
+#宇宙信息 2451-3050
+universeinfoproto
+
+#日常奖励 3051-3060
+dailyrewardproto
+
+#英雄抓捕祭祀逻辑 3061-3160
+prisonproto
+
+#联盟总动员 3161-3260
+alliancemobilizeproto
+
+#成就任务 3261-3290
+achievementproto
+
+#目标任务 3291-3300
+plotquestproto
+
+#在线奖励领取 3301-3310
+cityonlinerewardproto
+
+#解锁空地  3311-3320
+areaunlockproto
+
+#活动中心  3321-3330
+activitycenterproto
+
+#积分活动  3331-3350
+integralproto
+
+#商城装扮 3351-3360
+dressproto
+
+#最强领主 3361-3390
+strongestproto
+
+#月卡周卡 3391-3400
+freecaproto
+
+#激活码 3401-3410
+cdkeyproto
+
+#充值满额领奖 3411-3420
+fullgiftproto
+
+#王宫战协议 3421-3460
+palacebattleproto
+
+#星级弹窗 3461-3470
+kingdomsettingproto
+
+#充值协议 3471-3480
+rechargeproto
+
+#每日礼包 3481-3490
+dailypackproto
+
+#礼包充值 3491-3500
+normalpackproto
+
+#魔晶充值 3501-3510
+tokenrechargeproto
+
+#新王崛起 3511-3520
+#risekingproto
+
+#破冰礼包 3521-3530
+icebreakpackproto
+
+#行军表情 3531-3540
+faceproto
+
+#邀请送豪礼 3541-3550
+inviteproto
+
+#幸运礼包 3551-3560
+luckygiftproto
+
+#新手登陆七日礼 3561-3570
+rookieloginproto
+
+#成长基金 3571-3580
+growthfundproto
+
+#消息推送 3581-3590
+usernoticesettingproto
+
+#个人联盟任务 3591-3610
+alliancepersonproto
+
+#带参数提示 3601-3610
+servertipproto
+
+#限购礼包 3611-3620
+limitpackproto
+
+#商品价格 3621-3630
+shoppriceproto
+
+#折扣券 3631-3640
+discountproto
+
+#聊天室 3700-3800
+chatproto
